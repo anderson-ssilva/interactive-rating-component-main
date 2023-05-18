@@ -1,0 +1,87 @@
+@media(max-width:1024px) {
+.componente,
+.componenteSecundario {
+    width: 45%;
+    height: 60%;
+}
+}
+
+@media(max-width:768px) {
+.componente,
+.componenteSecundario {
+    width: 53%;
+    height: 65%;
+}
+
+.componente__icone {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 3%;
+}
+
+.componente__titulo,
+.componenteSecundario__titulo {
+    font-size: 1.5rem;
+}
+
+.componente__subtitulo,
+.componenteSecundario__subtitulo {
+    font-size: 1rem;
+}
+
+.componente__escala__nota a {
+    width: 55px;
+    height: 55px;
+    font-size: 1rem;
+}
+
+.componente__submeter {
+    height: 12%;
+    font-size: 1.2rem;
+}
+
+
+}
+
+@media(max-width:425px) {
+.componente,
+.componenteSecundario {
+    padding: 5%;
+    width: 85%;
+    height: 60%;
+}
+
+.componente__submeter {
+    height: 12%;
+
+}
+
+}
+
+@media(max-width:375px) {
+.componente,
+.componenteSecundario {
+    width: 90%;
+    height: 70%;
+}
+
+.componenteSecundario__resultado__texto {
+    font-size: 0.9rem;
+}
+
+.componente__titulo,
+.componenteSecundario__titulo {
+    font-size: 1.3rem;
+}
+
+.componente__subtitulo,
+.componenteSecundario__subtitulo {
+    font-size: 0.95rem;
+}
+
+.componente__escala__nota a {
+    width: 50px;
+    height: 50px;
+    font-size: 0.8rem;
+}
+}
